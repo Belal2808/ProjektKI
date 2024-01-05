@@ -77,14 +77,15 @@
     "Application.Main.executor": "Run",
     "Attach to process.pid 9684.executor": "ProcessAttachDebug",
     "Gradle.Build KIprojektbelal.executor": "Run",
+    "Gradle.Build ProjektKI.executor": "Run",
     "Gradle.KIprojektbelal [:Main.main()].executor": "Run",
-    "Gradle.ProjektKI [:Main.main()].executor": "Run",
+    "Gradle.ProjektKI [:Main.main()].executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/KIbelal",
+    "last_opened_file_path": "C:/Users/User/Desktop/ProjektKI",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -172,6 +173,10 @@
       <workItem from="1704367136880" duration="1883000" />
       <workItem from="1704370188066" duration="23000" />
       <workItem from="1704370692975" duration="17000" />
+      <workItem from="1704372674362" duration="33000" />
+      <workItem from="1704439368421" duration="7735000" />
+      <workItem from="1704457007675" duration="19416000" />
+      <workItem from="1704478770181" duration="2231000" />
     </task>
     <servers />
   </component>
@@ -210,14 +215,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.werthersechte/cathedral-game/1.4/3e8f59c58ef8e1d022c5a24ae2c840b80bbd2aa4/cathedral-game-1.4.jar!/de/fhkiel/ki/cathedral/game/Game.class</url>
-          <line>86</line>
-          <properties class="de.fhkiel.ki.cathedral.game.Game" method="getPlacableBuildings">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/fhkiel/belal/MinimaxAgent.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
